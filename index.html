@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <h4>Faried Wajdy</h5>
+      <h5>Graphic Design</h6>
+    </nav>
+    <h1>Project Task</h1>
+    <form id="add-task-form">
+        <input type="text" id="task-input" placeholder="mau ngapain ...">
+        <input type="datetime-local" id="time-input" placeholder="Add time">
+        <select id="priority-input">
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+        </select>
+        <button id="add-task-btn">+</button>
+    </form>
+    <ul id="task-list">
+        <!-- tasks will be rendered here -->
+    </ul>
+    <div id="task-after-inputed">
+      <button id="reset-btn">Reset Tasks</button>
+      <button id="completed-btn">Show Completed Tasks</button>
+      <button id="uncompleted-btn">Show Uncompleted Tasks</button>
+      <button id="overdue-btn">Show Overdue Tasks</button>
+    </div>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>

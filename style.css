@@ -1,0 +1,183 @@
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+
+.container {
+  width: 500px;
+  background: #bfd8d2;
+  margin: 100px auto 0;
+  padding: 20px 130px 70px;
+  width: 700px;
+}
+
+nav {
+  text-align: left;
+  background: #DCB239;
+  margin-right: 0;
+  padding-left: 7px;
+
+}
+
+
+h5 {
+  margin-top: -15px;
+}
+
+#add-task-form {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+#task-input {
+  background: #ffffff;
+  border: none;
+  padding: 10px;
+  width: 200px;
+}
+
+#time-input {
+  background: #ffffff;
+  border: none;
+  padding: 10px;
+  width: 170px;
+  font-weight: 700;
+}
+
+#priority-input {
+  background: #ffffff;
+  border: none;
+  width: 150px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#add-task-btn {
+  background: black;
+  width: 50px;
+  font-weight: 700;
+  font-size: large;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#add-task-btn:hover {
+  background: #FEDCD2;
+  color: black;
+}
+
+#reset-btn {
+  background: #FEDCD2;
+  color: #DF744A;
+  border: none;
+  width: 150px;
+  cursor: pointer;
+  height: 25px;
+  font-weight: 700;
+}
+
+#reset-btn:hover {
+  background-color: black;
+}
+
+#completed-btn {
+  background: #dcb239;
+  color: white;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  width: 170px;
+
+}
+
+#completed-btn:hover {
+  background: #DF744A;
+}
+
+#uncompleted-btn {
+  background: #dcb239;
+  color: white;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  width: 180px;
+}
+
+#uncompleted-btn:hover {
+  background: #DF744A;
+}
+
+#overdue-btn {
+  background: #dcb239;
+  color: white;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  width: 150px;
+}
+
+#overdue-btn:hover {
+  background: #DF744A;
+}
+
+#task-after-inputed {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+#task-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+
+}
+
+#task-list li:last-child {
+  border-bottom: none;
+}
+
+.task-checkbox {
+  margin-right: 10px;
+}
+
+.task-priority {
+  font-size: 15px;
+  color: #D2691E;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.task-time {
+  font-size: 11px;
+  color: black;
+  font-weight: 600;
+  margin-right: 10px;
+  letter-spacing: 1px;
+}
+
+.delete-btn {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.overdue {
+  color: #red;
+}
+
